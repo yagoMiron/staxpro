@@ -16,6 +16,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import SliderPage1 from "../SliderPage1";
 import SliderPage2 from "../SliderPage2";
+import SliderPage3 from "../SliderPage3";
 
 const MainCarousel = () => {
   const [api, setApi] = React.useState<EmblaCarouselType | undefined>();
@@ -65,8 +66,8 @@ const MainCarousel = () => {
 
           {/* Slide 3 */}
           <CarouselItem className="h-screen">
-            <div className={`${styles.slide}`}>
-              <h1 className="text-4xl font-bold text-white">3</h1>
+            <div className={`${styles.slide} ml-auto mr-auto`}>
+              <SliderPage3 />
             </div>
           </CarouselItem>
         </CarouselContent>

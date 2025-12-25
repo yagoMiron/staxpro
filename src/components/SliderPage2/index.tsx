@@ -77,7 +77,7 @@ const SliderPage2 = () => {
           <Badge img={support} title="CRM" top={-30} left={80} />
           <Badge img={sell} title="Vendas" top={80} right={-40} />
           <Badge img={integracao} title="Integração" top={"15%"} left={-60} />
-          <Badge img={robot} title="A.I." bottom={20} right={-60} />
+          <Badge img={robot} title="IA" bottom={20} right={-60} />
           <Badge img={chat} title="Chatbot" bottom={"30%"} left={-80} />
           <Badge
             img={processos}
