@@ -24,7 +24,7 @@ const MainCarousel = () => {
 
   const plugin = React.useRef(
     Autoplay({
-      delay: 300000, //tempo em millisegundos
+      delay: 5000, //tempo em millisegundos
       stopOnInteraction: true,
     })
   );

@@ -24,8 +24,8 @@ const SliderPage2 = () => {
           </h1>
           <Separator className="m-6 ml-0" />
           <h3 className="text-2xl">
-            • Crescer sem estrutura custa caro. A StaxPro organiza sua empresa
-            com{" "}
+            &ensp; Crescer sem estrutura custa caro. A StaxPro organiza sua
+            empresa com{" "}
             <strong className="text-meu-verde-300">
               estratégia, tecnologia e gestão inteligente
             </strong>{" "}
@@ -33,7 +33,7 @@ const SliderPage2 = () => {
             reais.
           </h3>
           <p className="text-2xl mt-2">
-            • Chegou a hora de crescer com segurança, controle e visão de
+            &ensp; Chegou a hora de crescer com segurança, controle e visão de
             futuro.
           </p>
 

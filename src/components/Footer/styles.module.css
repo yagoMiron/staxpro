@@ -1,0 +1,8 @@
+@reference "tailwindcss";
+.waves {
+  @apply w-full h-40;
+  background-image: url("../../assets/wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #151e29;
+}

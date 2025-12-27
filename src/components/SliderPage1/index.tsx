@@ -25,7 +25,7 @@ const SliderPage1 = () => {
           </h1>
           <Separator className="m-6 ml-0" />
           <h3 className="text-2xl">
-            • Unimos consultoria, sistemas, marketing e BPO financeiro para
+            &ensp; Unimos consultoria, sistemas, marketing e BPO financeiro para
             transformar empresas desorganizadas em negócios estruturados,
             escaláveis e lucrativos.
           </h3>
