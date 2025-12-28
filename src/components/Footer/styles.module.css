@@ -1,8 +1,13 @@
 @reference "tailwindcss";
 .waves {
-  @apply w-full h-40;
-  background-image: url("../../assets/wave.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #151e29;
+  background-image: url("../../assets/blueWaves.svg");
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: repeat-x;
+  height: 340px;
+  display: flex;
+  align-items: end;
+}
+.animate {
+  transition: padding 1s ease;
 }

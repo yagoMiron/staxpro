@@ -7,14 +7,12 @@ import Logo from "../Logo";
 import facebook from "../../assets/facebook.svg";
 import instagram from "../../assets/instagram.svg";
 import linkedin from "../../assets/linkedin.svg";
-import youtube from "../../assets/youtube.svg";
 import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div>
-      <div className={styles.waves}></div>
-      <div className="bg-meu-azul-700">
+    <div className={`${styles.waves} bg-meu-azul-800`}>
+      <div className="w-full">
         <div className="flex items-center justify-between px-12">
           <Logo />
           <div className="flex justify-center gap-4">
@@ -44,8 +42,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between py-4 px-14 bg-meu-azul-600 mt-2 border-t-2 text-blue-300 border-meu-azul-800">
-          <div className="flex gap-2">
+        <div className="flex justify-between py-4 px-14 mt-2 text-blue-300">
+          <div className="flex gap-2 items-center">
             <Link href={"https://www.instagram.com/staxpro_consult/"}>
               <Image
                 src={instagram}
@@ -73,7 +71,6 @@ const Footer = () => {
             </Link>
           </div>
           <p>StaxPro® 2025. Todos os direitos reservados</p>
-          <p>Politica de Privacidade</p>
         </div>
       </div>
     </div>
