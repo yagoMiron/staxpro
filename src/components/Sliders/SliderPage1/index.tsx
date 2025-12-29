@@ -7,11 +7,11 @@ import process from "@/src/assets/process.svg";
 import consultoria from "@/src/assets/consultoria.svg";
 import diagonal from "@/src/assets/diagonal.svg";
 import stax from "@/src/assets/stax.svg";
-import doubleRight from "@/src/assets/double_right.svg";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 import Image from "next/image";
-import Badge from "../Badge";
+import Badge from "../../Badge";
+import ExtruturarEmpresaBtn from "../../CTAbtns/EstruturarEmpresaBtn";
 
 const SliderPage1 = () => {
   return (
@@ -30,19 +30,7 @@ const SliderPage1 = () => {
             escaláveis e lucrativos.
           </h3>
           <div className="flex flex-col mt-8 p-4 gap-4">
-            <Link
-              href={"/"}
-              className="bg-gradient-stax h-11 rounded-3xl px-8 flex items-center justify-center mr-auto hover:px-16 hover:bg-gradient-stax-2 transition-all"
-            >
-              <Image
-                src={doubleRight}
-                alt="Conhecer a StaxPro"
-                className="h-8 w-8"
-              />
-              <span className="text-black font-bold text-xl">
-                Quero estruturar minha empresa
-              </span>
-            </Link>
+            <ExtruturarEmpresaBtn />
             <Link
               href={"/"}
               className="bg-gradient-stax h-11 rounded-3xl p-2 px-8 flex items-center justify-center mr-auto gap-2 hover:px-16 hover:bg-gradient-stax-2 transition-all"

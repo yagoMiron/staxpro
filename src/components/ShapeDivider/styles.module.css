@@ -1,0 +1,6 @@
+.waves {
+  background-image: url("../../assets/intersecting-waves.svg");
+}
+.waves_upsidedown {
+  background-image: url("../../assets/intersecting-waves_upsidedown.svg");
+}

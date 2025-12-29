@@ -1,20 +1,20 @@
-import Badge from "../Badge";
+import Badge from "../../Badge";
 import styles from "./styles.module.css";
-import filter from "../../assets/filter.svg";
-import phone from "../../assets/phone.svg";
-import group from "../../assets/group.svg";
-import mobile from "../../assets/mobile.svg";
-import robot from "../../assets/robot.svg";
-import leaderboard from "../../assets/leaderboard.svg";
-import whatsapp from "../../assets/whatsapp_green.svg";
-import marketing from "../../assets/marketing.svg";
+import filter from "@/src/assets/filter.svg";
+import phone from "@/src/assets/phone.svg";
+import group from "@/src/assets/group.svg";
+import mobile from "@/src/assets/mobile.svg";
+import robot from "@/src/assets/robot.svg";
+import leaderboard from "@/src/assets/leaderboard.svg";
+import whatsapp from "@/src/assets/whatsapp_green.svg";
+import marketing from "@/src/assets/marketing.svg";
 import Link from "next/link";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
-import chevronBronze from "../../assets/chevron-bronze.png";
-import bitrixLogo from "../../assets/bitrix24logo.svg";
-import relogio from "../../assets/schedule.svg";
-import whatsappBtn from "../../assets/whatsapp.svg";
+import chevronBronze from "@/src/assets/chevron-bronze.png";
+import bitrixLogo from "@/src/assets/bitrix24logo.svg";
+import relogio from "@/src/assets/schedule.svg";
+import whatsappBtn from "@/src/assets/whatsapp.svg";
 
 const SliderPage3 = () => {
   return (

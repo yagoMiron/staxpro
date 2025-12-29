@@ -1,7 +1,7 @@
 @reference "tailwindcss";
 
 .bgImg {
-  background-image: url("../../assets/3488.jpg");
+  background-image: url("../../../assets/3488.jpg");
   height: 25vw;
   width: 25vw;
   min-width: 400px;

@@ -1,4 +1,4 @@
-import Badge from "../Badge";
+import Badge from "../../Badge";
 import styles from "./styles.module.css";
 import { Separator } from "@/components/ui/separator";
 import support from "@/src/assets/support.svg";

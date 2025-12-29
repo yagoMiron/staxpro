@@ -14,9 +14,9 @@ import {
 } from "@/components/ui/carousel";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import SliderPage1 from "../SliderPage1";
-import SliderPage2 from "../SliderPage2";
-import SliderPage3 from "../SliderPage3";
+import SliderPage1 from "../../Sliders/SliderPage1";
+import SliderPage2 from "../../Sliders/SliderPage2";
+import SliderPage3 from "../../Sliders/SliderPage3";
 
 const MainCarousel = () => {
   const [api, setApi] = React.useState<EmblaCarouselType | undefined>();

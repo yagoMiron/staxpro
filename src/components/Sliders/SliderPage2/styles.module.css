@@ -1,15 +1,29 @@
 .bgImg {
   display: flex;
   border-radius: 40px;
-  min-height: 360px;
-  width: 540px;
-  background-image: url("../../assets/mesa_crm.jpeg");
+  min-height: 600px;
+  width: 400px;
+  background-image: url("../../../assets/25164.jpg");
   background-size: cover;
-  background-position: center;
+  background-position-x: 100%;
   background-repeat: no-repeat;
   animation: float 6s ease-in-out infinite;
   filter: drop-shadow(20px 20px 0px rgba(63, 93, 129, 0.4))
     drop-shadow(40px 40px 0px rgba(63, 93, 129, 0.2));
+}
+.text {
+  border-radius: 40px;
+}
+.desc {
+  overflow: hidden;
+  transition: height 1s ease;
+  margin: 0 40px;
+}
+.bgImg .desc {
+  height: 0;
+}
+.bgImg:hover .desc {
+  height: 220px;
 }
 
 @keyframes float {

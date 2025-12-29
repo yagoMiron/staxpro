@@ -8,7 +8,7 @@
   max-width: 1500px;
 }
 .backgroundTransparent {
-  background-image: url("../../assets/backgroundstax.svg");
+  background-image: url("../../../assets/backgroundstax.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
