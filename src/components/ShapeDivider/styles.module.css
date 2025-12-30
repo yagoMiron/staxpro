@@ -4,3 +4,21 @@
 .waves_upsidedown {
   background-image: url("../../assets/intersecting-waves_upsidedown.svg");
 }
+.curve {
+  background-image: url("../../assets/curve-divider.svg");
+}
+.instersecting {
+  background-image: url("../../assets/intersecting-waves-split.svg");
+}
+.layered_left {
+  background-image: url("../../assets/layered-wave-left.svg");
+  background-position: center;
+}
+.layered_right {
+  background-image: url("../../assets/layered-wave-right.svg");
+  background-position: center;
+}
+.layered_center {
+  background-image: url("../../assets/layered-wave-center.svg");
+  background-position: center;
+}

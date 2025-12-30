@@ -12,6 +12,7 @@ const config: Config = {
       backgroundImage: {
         "gradient-stax": "linear-gradient(45deg, #06b6d4, #22c55e, #84cc16)",
         "gradient-stax-2": "linear-gradient(45deg, #22c55e, #84cc16, #06b6d4)",
+        "gradient-stax-3": "linear-gradient(45deg, #22c55e, #84cc16)",
       },
       colors: {
         "meu-verde": {

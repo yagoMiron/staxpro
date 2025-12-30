@@ -1,4 +1,5 @@
 import MainCarousel from "@/src/components/SecoesMainPage/MainCarousel";
+import SecaoSolucoes from "@/src/components/SecoesMainPage/SecaoSolucoes";
 import SecaoStax from "@/src/components/SecoesMainPage/SecaoStax";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen items-center justify-center font-sans bg-meu-azul-800">
       <MainCarousel />
       <SecaoStax />
+      <SecaoSolucoes />
     </div>
   );
 }
