@@ -13,6 +13,8 @@ const config: Config = {
         "gradient-stax": "linear-gradient(45deg, #06b6d4, #22c55e, #84cc16)",
         "gradient-stax-2": "linear-gradient(45deg, #22c55e, #84cc16, #06b6d4)",
         "gradient-stax-3": "linear-gradient(45deg, #22c55e, #84cc16)",
+        "gradient-bitrix": "linear-gradient(45deg, #00629A, #31C2F6, #FFFFFF)",
+        "gradient-bitrix-2": "linear-gradient(45deg, #00629A, #31C2F6)",
       },
       colors: {
         "meu-verde": {

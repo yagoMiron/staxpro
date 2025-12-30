@@ -1,4 +1,5 @@
 import MainCarousel from "@/src/components/SecoesMainPage/MainCarousel";
+import SecaoBitrix from "@/src/components/SecoesMainPage/SecaoBitrix";
 import SecaoSolucoes from "@/src/components/SecoesMainPage/SecaoSolucoes";
 import SecaoStax from "@/src/components/SecoesMainPage/SecaoStax";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <MainCarousel />
       <SecaoStax />
       <SecaoSolucoes />
+      <SecaoBitrix />
     </div>
   );
 }

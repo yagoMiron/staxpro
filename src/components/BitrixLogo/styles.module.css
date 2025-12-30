@@ -1,0 +1,15 @@
+.bitrix {
+  padding-left: 10px;
+  color: #3fc0f0;
+  font-weight: 500;
+}
+.vinteQuatro {
+  color: #00629a;
+  font-weight: 500;
+  background-image: url("../../assets/bitrixClock.svg");
+  background-repeat: no-repeat;
+  background-size: 32%;
+  background-position-y: 4px;
+  background-position-x: right;
+  padding-right: 20px;
+}

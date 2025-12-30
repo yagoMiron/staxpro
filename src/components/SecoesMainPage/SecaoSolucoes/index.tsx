@@ -8,11 +8,11 @@ const SecaoSolucoes = () => {
     <div
       className={`w-full h-screen bg-meu-azul-800 ${styles.backgroundTransparent}`}
     >
-      <div className="ml-auto mr-auto w-10/12 pt-16 pb-16 h-full">
-        <h2 className="text-meu-verde-300 font-bold text-6xl mb-8">
+      <div className="ml-auto mr-auto w-10/12 pt-16 pb-40 h-full">
+        <h2 className="text-meu-verde-300 font-bold text-6xl mb-12">
           Nossas Soluções
         </h2>
-        <div className="w-full min-h-full grid grid-cols-3 pt-12 pb-12">
+        <div className="w-full min-h-full grid grid-cols-3">
           <SolucaoCard
             title="Stax Finance"
             subtitle="Consultoria e BPO Financeiro"

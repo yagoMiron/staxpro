@@ -11,18 +11,17 @@ import marketing from "@/src/assets/marketing.svg";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import chevronBronze from "@/src/assets/chevron-bronze.png";
-import bitrixLogo from "@/src/assets/bitrix24logo.svg";
 import ConhecaBitrixBtn from "../../CTAbtns/ConhecaBitrixBtn";
 import FaleConsultorBtn from "../../CTAbtns/FaleConsultorBtn";
+import BitrixLogo from "../../BitrixLogo";
 
 const SliderPage3 = () => {
   return (
     <>
       <div className="flex h-full w-1/2 items-center justify-center">
         <div className="flex flex-col max-w-xl">
-          <h1 className="font-bold text-white text-5xl flex gap-2 items-end">
-            Conheça o{" "}
-            <Image src={bitrixLogo} alt="Bitrix24" className="h-10 w-52 m-1" />{" "}
+          <h1 className="font-bold text-white text-5xl flex items-end">
+            Conheça o <BitrixLogo />
           </h1>
           <Separator className="m-6 ml-0" />
           <h3 className="text-2xl">
