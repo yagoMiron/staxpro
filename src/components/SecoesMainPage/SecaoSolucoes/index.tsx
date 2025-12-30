@@ -79,7 +79,6 @@ const SecaoSolucoes = () => {
               <li>✔ Automações personalizadas</li>
               <li>✔ Portais, dashboards e painéis administrativos</li>
               <li>✔ Soluções sob medida para o seu negócio</li>
-              <li>✔ BPO Financeiro (terceirização completa)</li>
             </ul>
           </SolucaoCard>
         </div>
