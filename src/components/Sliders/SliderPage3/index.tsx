@@ -8,13 +8,12 @@ import robot from "@/src/assets/robot.svg";
 import leaderboard from "@/src/assets/leaderboard.svg";
 import whatsapp from "@/src/assets/whatsapp_green.svg";
 import marketing from "@/src/assets/marketing.svg";
-import Link from "next/link";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import chevronBronze from "@/src/assets/chevron-bronze.png";
 import bitrixLogo from "@/src/assets/bitrix24logo.svg";
-import relogio from "@/src/assets/schedule.svg";
-import whatsappBtn from "@/src/assets/whatsapp.svg";
+import ConhecaBitrixBtn from "../../CTAbtns/ConhecaBitrixBtn";
+import FaleConsultorBtn from "../../CTAbtns/FaleConsultorBtn";
 
 const SliderPage3 = () => {
   return (
@@ -42,28 +41,8 @@ const SliderPage3 = () => {
           </p>
 
           <div className="flex flex-col mt-8 p-4 gap-4">
-            <Link
-              href={"/"}
-              className="bg-gradient-stax h-11 rounded-3xl p-2 px-8 flex items-center justify-center mr-auto gap-2 hover:px-16 hover:bg-gradient-stax-2 transition-all"
-            >
-              <Image
-                src={relogio}
-                alt="Conhecer a Bitrix24"
-                className="h-6 w-6"
-              />
-              <span className="text-black font-bold text-xl">
-                Quero conhecer a Bitrix24
-              </span>
-            </Link>
-            <Link
-              href={"/"}
-              className="bg-gradient-stax h-11 rounded-3xl px-8 flex items-center justify-center mr-auto gap-2 hover:px-16 hover:bg-gradient-stax-2 transition-all"
-            >
-              <Image src={whatsappBtn} alt="Fale conosco" className="h-6 w-6" />
-              <span className="text-black font-bold text-xl">
-                Fale com um especialista
-              </span>
-            </Link>
+            <ConhecaBitrixBtn />
+            <FaleConsultorBtn />
           </div>
         </div>
       </div>

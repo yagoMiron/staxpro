@@ -46,7 +46,7 @@ const Header = () => {
               asChild
               className={navigationMenuTriggerStyle()}
             >
-              <Link href={"/chatapp-stax"}>ChatApp Stax</Link>
+              <Link href={"/"}>ChatApp Stax</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>

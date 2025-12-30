@@ -10,9 +10,9 @@ import processos from "@/src/assets/config.svg";
 import Image from "next/image";
 import diagonal from "@/src/assets/diagonal.svg";
 import stax from "@/src/assets/stax.svg";
-import whatsapp from "@/src/assets/whatsapp.svg";
-import task from "@/src/assets/order_approve_blue.svg";
 import Link from "next/link";
+import FaleConsultorBtn from "../../CTAbtns/FaleConsultorBtn";
+import ConhecaSolucoesBtn from "../../CTAbtns/ConhecaSolucoesBtn";
 
 const SliderPage2 = () => {
   return (
@@ -38,24 +38,8 @@ const SliderPage2 = () => {
           </p>
 
           <div className="flex flex-col mt-8 p-4 gap-4">
-            <Link
-              href={"/"}
-              className="bg-gradient-stax h-11 rounded-3xl px-8 flex items-center justify-center mr-auto gap-2 hover:px-16 hover:bg-gradient-stax-2 transition-all"
-            >
-              <Image src={whatsapp} alt="Whatsapp" className="h-6 w-6" />
-              <span className="text-black font-bold text-xl">
-                Fale com um Consultor
-              </span>
-            </Link>
-            <Link
-              href={"/"}
-              className="bg-gradient-stax h-11 rounded-3xl p-2 px-8 flex items-center justify-center mr-auto gap-2 hover:px-16 hover:bg-gradient-stax-2 transition-all"
-            >
-              <Image src={task} alt="Conhecer a StaxPro" className="h-6 w-6" />
-              <span className="text-black font-bold text-xl">
-                Conheça nossas soluções
-              </span>
-            </Link>
+            <ConhecaSolucoesBtn />
+            <FaleConsultorBtn />
           </div>
         </div>
       </div>
