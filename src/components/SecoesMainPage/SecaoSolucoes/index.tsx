@@ -2,10 +2,12 @@ import finance from "@/src/assets/finance_blue.svg";
 import process from "@/src/assets/order_approve_blue.svg";
 import terminal from "@/src/assets/terminal.svg";
 import SolucaoCard from "../../SolucaoCard";
-
+import styles from "./styles.module.css";
 const SecaoSolucoes = () => {
   return (
-    <div className="w-full h-screen bg-meu-azul-800">
+    <div
+      className={`w-full h-screen bg-meu-azul-800 ${styles.backgroundTransparent}`}
+    >
       <div className="ml-auto mr-auto w-10/12 pt-16 pb-16 h-full">
         <h2 className="text-meu-verde-300 font-bold text-6xl mb-8">
           Nossas Soluções

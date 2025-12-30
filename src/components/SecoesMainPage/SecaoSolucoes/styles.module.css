@@ -1,0 +1,5 @@
+.backgroundTransparent {
+  background-image: url("../../../assets/backgroundstax.svg");
+  background-size: contain;
+  background-position: center;
+}
