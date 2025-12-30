@@ -20,7 +20,7 @@ const SecaoStax = () => {
                 <Image
                   src={staxGradient}
                   alt="staxpro logo"
-                  className="h-14 w-14 absolute bg-meu-azul-800 p-2.5 rounded-full"
+                  className="h-14 w-14 absolute bg-meu-azul-700 p-3 rounded-full"
                   style={{
                     top: -15,
                     left: -15,

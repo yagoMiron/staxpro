@@ -74,7 +74,7 @@ const SecaoBitrix = () => {
               </div>
               <div className="w-1/2 flex">
                 <div className="flex w-full items-center justify-center">
-                  <div className="flex items-center justify-center w-96 h-96 relative">
+                  <div className="flex items-center justify-center w-3/4 relative">
                     <div
                       className={`ml-auto mr-auto flex items-center justify-center border-meu-azul-800 rounded-full ${styles.float}`}
                     >
