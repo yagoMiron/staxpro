@@ -31,9 +31,7 @@ const SliderPage3 = () => {
           </h3>
           <p className="text-2xl mt-2">
             &ensp; A StaxPro é{" "}
-            <strong className="text-meu-verde-300">
-              Parceira Bronze Bitrix24,
-            </strong>{" "}
+            <strong className="text-sky-400">Parceira Bronze Bitrix24,</strong>{" "}
             o que garante implementação profissional, configuração estratégica e
             suporte especializado para que sua empresa utilize todo o potencial
             da ferramenta.

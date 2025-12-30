@@ -1,17 +1,15 @@
 import Image from "next/image";
-import ExtruturarEmpresaBtn from "../../CTAbtns/EstruturarEmpresaBtn";
 import ShapeDivider from "../../ShapeDivider";
 import { Separator } from "@/components/ui/separator";
 import relogio from "@/src/assets/bitrixClock.svg";
 import styles from "./styles.module.css";
 import BitrixLogo from "../../BitrixLogo";
-import BitrixBall from "@/src/assets/bitrix24.svg";
 import bronzePartner from "@/src/assets/chevron-bronze.png";
 import BitrixBtn from "../../CTAbtns/BitrixBtn";
 
 const SecaoBitrix = () => {
   return (
-    <div className={`w-full h-screen bg-gradient-bitrix`} id="staxPro">
+    <div className={`w-full h-screen bg-gradient-bitrix`} id="bitrix">
       <div className={`h-full w-full flex flex-col`}>
         <ShapeDivider imgTag="waves" />
         <div className="flex-1 flex items-center">

@@ -7,6 +7,7 @@ const SecaoSolucoes = () => {
   return (
     <div
       className={`w-full h-screen bg-meu-azul-800 ${styles.backgroundTransparent}`}
+      id="solucoes"
     >
       <div className="ml-auto mr-auto w-10/12 pt-16 pb-40 h-full">
         <h2 className="text-meu-verde-300 font-bold text-6xl mb-12">

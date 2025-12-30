@@ -29,8 +29,8 @@ const SliderPage1 = () => {
             escaláveis e lucrativos.
           </h3>
           <div className="flex flex-col mt-8 p-4 gap-4">
-            <ExtruturarEmpresaBtn />
             <ConhecaStaxBtn />
+            <ExtruturarEmpresaBtn />
           </div>
         </div>
       </div>
