@@ -4,8 +4,11 @@
   @apply absolute top-1/2 z-10 -translate-y-1/2 rounded-full p-3 text-white transition opacity-50 hover:cursor-pointer hover:opacity-100;
 }
 .slide {
-  @apply flex h-full w-full items-center justify-center lg:flex-row flex-col;
+  @apply flex h-full w-full items-center justify-center lg:flex-row flex-col ml-auto mr-auto;
   max-width: 1500px;
+}
+.slideItem {
+  @apply lg:min-h-screen w-screen mt-8 lg:mt-0 lg:p-20 pt-32 pb-32;
 }
 .backgroundTransparent {
   background-image: url("../../../assets/backgroundstax.svg");

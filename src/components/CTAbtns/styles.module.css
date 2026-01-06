@@ -1,0 +1,15 @@
+@reference "tailwindcss";
+
+.btn {
+  @apply cursor-pointer h-10 rounded-3xl p-2 px-3 md:px-8 flex items-center justify-center mr-auto gap-1 hover:px-16 transition-all;
+}
+.text {
+  @apply text-black font-bold md:text-xl text-xs;
+}
+.icon {
+  @apply h-6 w-6;
+}
+.textBitrix {
+  @apply text-white font-bold md:text-xl;
+  font-size: 14px;
+}

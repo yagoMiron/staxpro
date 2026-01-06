@@ -1,5 +1,6 @@
 import Image from "next/image";
 import task from "@/src/assets/order_approve_blue.svg";
+import styles from "../styles.module.css";
 
 const ConhecaSolucoesBtn = () => {
   return (
@@ -10,12 +11,10 @@ const ConhecaSolucoesBtn = () => {
           el.scrollIntoView({ behavior: "smooth" });
         }
       }}
-      className="bg-gradient-stax cursor-pointer h-11 rounded-3xl p-2 md:px-8 flex items-center justify-center mr-auto gap-2 hover:px-16 hover:bg-gradient-stax-2 transition-all"
+      className={`bg-gradient-stax hover:bg-gradient-stax-2 ${styles.btn}`}
     >
-      <Image src={task} alt="Conhecer a StaxPro" className="h-6 w-6" />
-      <span className="text-black font-bold md:text-xl text-base">
-        Conheça nossas soluções
-      </span>
+      <Image src={task} alt="Conhecer a StaxPro" className={styles.icon} />
+      <span className={styles.text}>Conheça nossas soluções</span>
     </button>
   );
 };

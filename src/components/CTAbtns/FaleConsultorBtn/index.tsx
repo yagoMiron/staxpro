@@ -1,17 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import whatsapp from "@/src/assets/whatsapp.svg";
+import styles from "../styles.module.css";
 
 const FaleConsultorBtn = () => {
   return (
     <Link
       href={"/"}
-      className="bg-gradient-stax h-11 rounded-3xl md:px-8 flex items-center justify-center mr-auto gap-2 hover:px-16 hover:bg-gradient-stax-2 transition-all"
+      className={`bg-gradient-stax hover:bg-gradient-stax-2 ${styles.btn}`}
     >
-      <Image src={whatsapp} alt="Whatsapp" className="h-6 w-6" />
-      <span className="text-black font-bold md:text-xl text-base">
-        Fale com um Consultor
-      </span>
+      <Image src={whatsapp} alt="Whatsapp" className={styles.icon} />
+      <span className={styles.text}>Fale com um Consultor</span>
     </Link>
   );
 };

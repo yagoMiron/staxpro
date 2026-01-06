@@ -1,18 +1,41 @@
 @reference "tailwindcss";
 
 .bgImg {
-  @apply lg:min-h-96 lg:w-96 w-2/3 sm:min-h-full h-64 relative;
-  background-image: url("../../assets/3488.jpg");
+  @apply relative flex bg-cover bg-no-repeat;
   border-radius: 40px;
-  background-size: cover;
   background-position-x: 100%;
-  background-repeat: no-repeat;
   animation: float 6s ease-in-out infinite;
-  filter: drop-shadow(20px 20px 0px rgba(63, 93, 129, 0.4))
-    drop-shadow(40px 40px 0px rgba(63, 93, 129, 0.2));
 }
+.bgSlide1 {
+  @apply lg:min-h-96 lg:w-96 w-2/3 sm:min-h-full h-64;
+  background-image: url("../../assets/slide1pic.jpg");
+}
+.bgSlide2 {
+  @apply lg:w-96 w-2/3 sm:min-h-full h-64;
+  background-image: url("../../assets/slide2pic.jpg");
+}
+.bgSlide3 {
+  @apply lg:min-h-96 lg:w-4/5 w-2/3 sm:min-h-full h-64;
+  background-image: url("../../assets/mesa_crm.jpeg");
+}
+
+.desc {
+  overflow: hidden;
+  transition: height 1s ease;
+  margin: 0 12px;
+}
+.text {
+  border-radius: 40px;
+}
+.bgImg .desc {
+  height: 0;
+}
+.bgImg:hover .desc {
+  height: 200px;
+}
+
 .title {
-  @apply font-bold text-white lg:text-5xl text-2xl;
+  @apply font-bold text-white lg:text-5xl text-3xl;
 }
 .paragraph {
   @apply lg:text-2xl text-base;
@@ -29,7 +52,17 @@
 .imgDiv {
   @apply flex h-full p-8 items-center justify-center w-full;
 }
-
+.linking {
+  @apply lg:p-2 p-1 rounded-full absolute hover:cursor-pointer transition;
+  top: -10px;
+  right: -10px;
+}
+.linking img {
+  @apply lg:h-10 lg:w-10 w-6 h-6 hover:h-12 hover:w-12 transition-all;
+}
+.separator {
+  @apply m-6 ml-2;
+}
 @keyframes float {
   0% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -42,5 +75,14 @@
   100% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
+  }
+}
+
+@media (width >= 64rem /* 1024px */) {
+  .bgSlide2 {
+    min-height: 540px;
+  }
+  .desc {
+    margin: 0 32px;
   }
 }

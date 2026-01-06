@@ -22,7 +22,7 @@ const SliderPage1 = () => {
             <strong className="text-meu-verde-300">360°</strong> para crescer
             com estratégia, tecnologia e controle
           </h1>
-          <Separator className="m-6 ml-2" />
+          <Separator className={styles.separator} />
           <h3 className={styles.paragraph}>
             &ensp; Unimos consultoria, sistemas, marketing e BPO financeiro para
             transformar empresas desorganizadas em negócios estruturados,
@@ -36,19 +36,9 @@ const SliderPage1 = () => {
       </div>
       <div className={styles.section}>
         <div className={styles.imgDiv}>
-          <div className={`${styles.bgImg}`}>
-            <button
-              className="lg:p-2 p-1 rounded-full absolute bg-gradient-stax hover:cursor-pointer transition"
-              style={{
-                top: -10,
-                right: -10,
-              }}
-            >
-              <Image
-                className="lg:h-10 lg:w-10 w-6 h-6 hover:h-12 hover:w-12 transition-all"
-                src={diagonal}
-                alt="linking"
-              />
+          <div className={`${styles.bgImg} ${styles.bgSlide1}`}>
+            <button className={`${styles.linking} bg-gradient-stax`}>
+              <Image src={diagonal} alt="linking" />
             </button>
             <Badge img={codeBlock} title="Programação" top={-20} left={60} />
             <Badge img={finance} title="BPO Financeiro" top={80} right={-60} />

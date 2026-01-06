@@ -53,24 +53,22 @@ const MainCarousel = () => {
       >
         <CarouselContent className={`min-h-full`}>
           {/* Slide 1 */}
-          <CarouselItem
-            className={`min-h-screen w-screen mt-8 md:mt-0 lg:p-20 pt-32 pb-32`}
-          >
-            <div className={`${styles.slide} ml-auto mr-auto`}>
+          <CarouselItem className={styles.slideItem}>
+            <div className={styles.slide}>
               <SliderPage1 />
             </div>
           </CarouselItem>
 
           {/* Slide 2 */}
-          <CarouselItem className="h-screen">
-            <div className={`${styles.slide} ml-auto mr-auto`}>
+          <CarouselItem className={styles.slideItem}>
+            <div className={styles.slide}>
               <SliderPage2 />
             </div>
           </CarouselItem>
 
           {/* Slide 3 */}
-          <CarouselItem className="h-screen">
-            <div className={`${styles.slide} ml-auto mr-auto`}>
+          <CarouselItem className={styles.slideItem}>
+            <div className={styles.slide}>
               <SliderPage3 />
             </div>
           </CarouselItem>
