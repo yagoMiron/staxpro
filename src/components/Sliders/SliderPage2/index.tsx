@@ -19,11 +19,11 @@ const SliderPage2 = () => {
     <>
       <div className="flex h-full w-1/2 items-center justify-center">
         <div className="flex flex-col max-w-xl">
-          <h1 className="font-bold text-white text-5xl italic">
+          <h1 className="font-bold text-white lg:text-5xl text-2xl italic">
             {'"'}Não há mais tempo para errar!{'"'}
           </h1>
           <Separator className="m-6 ml-0" />
-          <h3 className="text-2xl">
+          <h3 className="lg:text-2xl text-base">
             &ensp; Crescer sem estrutura custa caro. A StaxPro organiza sua
             empresa com{" "}
             <strong className="text-meu-verde-300">
@@ -32,7 +32,7 @@ const SliderPage2 = () => {
             para que cada decisão seja baseada em dados, processos e resultados
             reais.
           </h3>
-          <p className="text-2xl mt-2">
+          <p className="lg:text-2xl text-base mt-2">
             &ensp; Chegou a hora de crescer com segurança, controle e visão de
             futuro.
           </p>

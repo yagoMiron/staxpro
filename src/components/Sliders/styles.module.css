@@ -1,9 +1,8 @@
 @reference "tailwindcss";
 
 .bgImg {
-  background-image: url("../../../assets/3488.jpg");
-  height: 25vw;
-  width: 25vw;
+  @apply lg:min-h-96 lg:w-96 w-2/3 sm:min-h-full h-64 relative;
+  background-image: url("../../assets/3488.jpg");
   border-radius: 40px;
   background-size: cover;
   background-position-x: 100%;
@@ -11,6 +10,24 @@
   animation: float 6s ease-in-out infinite;
   filter: drop-shadow(20px 20px 0px rgba(63, 93, 129, 0.4))
     drop-shadow(40px 40px 0px rgba(63, 93, 129, 0.2));
+}
+.title {
+  @apply font-bold text-white lg:text-5xl text-2xl;
+}
+.paragraph {
+  @apply lg:text-2xl text-base;
+}
+.section {
+  @apply flex h-full w-full lg:w-1/2 items-center justify-center;
+}
+.textDiv {
+  @apply flex flex-col max-w-xl pr-8 pl-8 mb-12;
+}
+.btnsDiv {
+  @apply flex flex-col mt-8 lg:p-4 p-0 gap-4;
+}
+.imgDiv {
+  @apply flex h-full p-8 items-center justify-center w-full;
 }
 
 @keyframes float {

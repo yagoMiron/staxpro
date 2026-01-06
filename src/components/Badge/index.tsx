@@ -20,8 +20,10 @@ const Badge = ({ title, img, top, right, left, bottom }: Props) => {
         bottom: bottom,
       }}
     >
-      <Image src={img} alt={title} className="h-6 w-6" />
-      <span className="text-meu-verde-300 font-bold">{title}</span>
+      <Image src={img} alt={title} className="lg:h-6 lg:w-6 w-4 h-4" />
+      <span className="text-meu-verde-300 font-bold text-xs lg:text-base">
+        {title}
+      </span>
     </div>
   );
 };

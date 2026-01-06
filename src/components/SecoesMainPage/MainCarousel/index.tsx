@@ -49,11 +49,13 @@ const MainCarousel = () => {
         opts={{
           loop: true,
         }}
-        className="min-h-full w-full lg:p-20 pt-32 pb-32"
+        className="min-h-full w-full"
       >
         <CarouselContent className={`min-h-full`}>
           {/* Slide 1 */}
-          <CarouselItem className={`min-h-screen w-screen mt-8 md:mt-0`}>
+          <CarouselItem
+            className={`min-h-screen w-screen mt-8 md:mt-0 lg:p-20 pt-32 pb-32`}
+          >
             <div className={`${styles.slide} ml-auto mr-auto`}>
               <SliderPage1 />
             </div>

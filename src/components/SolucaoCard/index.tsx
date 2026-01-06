@@ -23,7 +23,7 @@ const SolucaoCard = ({
   children,
 }: Props) => {
   return (
-    <div className="bg-gradient-stax-3 text-meu-azul-800 rounded-3xl w-sm relative ml-auto mr-auto flex flex-col justify-between">
+    <div className="bg-gradient-stax-3 text-meu-azul-800 rounded-3xl sm:w-sm w-xs relative ml-auto mr-auto flex flex-col justify-between">
       <Image
         src={icon}
         alt="finance"
@@ -38,13 +38,15 @@ const SolucaoCard = ({
         <h4 className="text-xl mb-6 ml-4">{subtitle}</h4>
         {children}
       </div>
-      <div className="flex w-full justify-center mb-28">
+      <div className="flex w-full justify-center mb-28 mt-12">
         <Link
           href={"/"}
           className="bg-meu-azul-800 hover:bg-meu-azul-700 h-11 rounded-3xl p-6 hover:p-8 flex items-center justify-center gap-2 transition-all"
         >
           <Image src={stax} alt="Stax Logo" className="h-6 w-6" />
-          <span className={`font-bold text-base ${styles.gradient_text}`}>
+          <span
+            className={`font-bold sm:text-base text-sm  ${styles.gradient_text}`}
+          >
             {cta}
           </span>
         </Link>
