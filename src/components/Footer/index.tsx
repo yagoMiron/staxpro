@@ -12,10 +12,10 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className={`${styles.waves} bg-meu-azul-800`}>
-      <div className="w-full">
-        <div className="flex items-center justify-between px-12">
+      <div className="w-full p-4">
+        <div className="flex md:flex-row flex-col gap-4 items-center justify-between md:px-12">
           <Logo />
-          <div className="flex justify-center gap-4">
+          <div className="flex md:flex-row flex-col justify-center gap-4">
             <div
               className={`flex items-center bg-meu-azul-600 rounded-2xl p-2 gap-1 hover:px-6 ${styles.animate}`}
             >
@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between py-4 px-14 mt-2 text-blue-300">
+        <div className="flex md:flex-row flex-col justify-between items-center py-4 lg:px-14 mt-2 gap-4 text-blue-300">
           <div className="flex gap-2 items-center">
             <Link href={"https://www.instagram.com/staxpro_consult/"}>
               <Image

@@ -9,14 +9,14 @@ import BitrixBtn from "../../CTAbtns/BitrixBtn";
 
 const SecaoBitrix = () => {
   return (
-    <div className={`w-full h-screen bg-gradient-bitrix`} id="bitrix">
+    <div className={`w-full min-h-screen bg-gradient-bitrix`} id="bitrix">
       <div className={`h-full w-full flex flex-col`}>
         <ShapeDivider imgTag="waves" />
-        <div className="flex-1 flex items-center">
-          <div className="flex flex-col items-center">
-            <div className="m-auto flex gap-10 w-10/12 h-full">
+        <div className="flex-1 flex items-center lg:p-8 pt-16 pb-10">
+          <div className="flex flex-col min-h-[calc(100vh-160px)] items-center">
+            <div className="m-auto flex lg:flex-row flex-col gap-10 w-10/12 h-full">
               <div
-                className={`w-1/2 flex flex-col p-10 bg-sky-100 text-sky-900 rounded-3xl relative ${styles.drop}`}
+                className={`lg:w-1/2 flex flex-col lg:p-10 p-6 bg-sky-100 text-sky-900 rounded-3xl relative ${styles.drop}`}
               >
                 <Image
                   src={relogio}
@@ -27,12 +27,12 @@ const SecaoBitrix = () => {
                     left: -15,
                   }}
                 />
-                <h2 className="text-4xl font-bold text-center">
+                <h2 className="lg:text-4xl text-2xl font-bold text-center">
                   Somos parceiros da
                   <BitrixLogo />
                 </h2>
                 <Separator className="m-6 ml-0 bg-sky-900" />
-                <div className="text-justify text-xl flex flex-col gap-4 mb-10 leading-tight">
+                <div className="text-justify lg:text-lg text-base flex flex-col gap-4 mb-10 leading-tight">
                   <p>
                     A{" "}
                     <strong className="text-sky-600">
@@ -70,7 +70,7 @@ const SecaoBitrix = () => {
                   <BitrixBtn />
                 </div>
               </div>
-              <div className="w-1/2 flex">
+              <div className="lg:w-1/2 flex">
                 <div className="flex w-full items-center justify-center">
                   <div className="flex items-center justify-center w-3/4 relative">
                     <div

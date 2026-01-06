@@ -8,14 +8,14 @@ import staxGradient from "@/src/assets/staxGradient.svg";
 
 const SecaoStax = () => {
   return (
-    <div className={`w-full h-screen bg-gradient-stax`} id="staxPro">
+    <div className={`w-full min-h-screen bg-gradient-stax`} id="staxPro">
       <div className={`h-full w-full flex flex-col ${styles.background}`}>
         <ShapeDivider imgTag="waves" />
-        <div className="flex-1 flex items-center">
-          <div className="flex flex-col items-center">
-            <div className="m-auto flex gap-10 w-10/12 h-full">
+        <div className="flex-1 flex items-center lg:p-8 pt-16 pb-10">
+          <div className="flex flex-col min-h-[calc(100vh-160px)] items-center">
+            <div className="m-auto flex lg:flex-row flex-col gap-10 w-10/12 h-full">
               <div
-                className={`w-1/2 flex flex-col p-10 bg-meu-azul-700 rounded-3xl relative ${styles.drop}`}
+                className={`lg:w-1/2 flex flex-col p-6 md:p-10 bg-meu-azul-700 rounded-3xl relative ${styles.drop}`}
               >
                 <Image
                   src={staxGradient}
@@ -26,11 +26,11 @@ const SecaoStax = () => {
                     left: -15,
                   }}
                 />
-                <h2 className="text-4xl font-bold text-center">
+                <h2 className="lg:text-4xl text-2xl font-bold text-center">
                   Oque é a StaxPro?
                 </h2>
                 <Separator className="m-6 ml-0" />
-                <div className="text-justify text-lg flex flex-col gap-4 mb-10">
+                <div className="text-justify lg:text-lg text-base flex flex-col gap-4 mb-10">
                   <p>
                     A <strong className="text-meu-verde-300">StaxPro</strong> é
                     uma empresa de soluções empresariais que atua de forma
@@ -65,7 +65,7 @@ const SecaoStax = () => {
                   <ExtruturarEmpresaBtn />
                 </div>
               </div>
-              <div className="w-1/2 flex">
+              <div className="lg:w-1/2 flex">
                 <div className="flex w-full items-center justify-center">
                   <div className="flex items-center justify-center w-96 h-96 relative">
                     <div

@@ -30,6 +30,10 @@ const ShapeDivider = ({ imgTag }: Props) => {
         return styles.layered_center;
     }
   };
-  return <div className={`${returnaStyle()} w-full h-20 bg-repeat-x`}></div>;
+  return (
+    <div
+      className={`${returnaStyle()} w-full h-20 bg-repeat-x bg-cover md:bg-auto`}
+    ></div>
+  );
 };
 export default ShapeDivider;

@@ -40,18 +40,20 @@ const MainCarousel = () => {
   }, [api]);
 
   return (
-    <div className={`relative h-screen w-full ${styles.backgroundTransparent}`}>
+    <div
+      className={`relative min-h-screen w-full ${styles.backgroundTransparent}`}
+    >
       <Carousel
         setApi={setApi}
         plugins={[plugin.current]}
         opts={{
           loop: true,
         }}
-        className="h-full w-full"
+        className="min-h-full w-full lg:p-20 pt-32 pb-32"
       >
-        <CarouselContent className={`h-full`}>
+        <CarouselContent className={`min-h-full`}>
           {/* Slide 1 */}
-          <CarouselItem className={`h-screen w-screen`}>
+          <CarouselItem className={`min-h-screen w-screen mt-8 md:mt-0`}>
             <div className={`${styles.slide} ml-auto mr-auto`}>
               <SliderPage1 />
             </div>
@@ -91,7 +93,7 @@ const MainCarousel = () => {
         <Image src={arrow_forward} alt="Avançar" className="h-8 w-8" />
       </button>
       {/* Indicadores (bolinhas) */}
-      <div className="absolute bottom-6 left-1/2 flex -translate-x-1/2 gap-3">
+      <div className="absolute bottom-28 left-1/2 flex -translate-x-1/2 gap-3">
         {[0, 1, 2].map((index) => (
           <button
             key={index}
