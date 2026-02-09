@@ -36,8 +36,12 @@ const SliderPage3 = () => {
           </p>
 
           <div className={styles.btnsDiv}>
-            <ConhecaBitrixBtn />
-            <FaleConsultorBtn />
+            <div className="mr-auto">
+              <ConhecaBitrixBtn />
+            </div>
+            <div className="mr-auto">
+              <FaleConsultorBtn />
+            </div>
           </div>
         </div>
       </div>

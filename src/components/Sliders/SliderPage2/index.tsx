@@ -37,8 +37,12 @@ const SliderPage2 = () => {
           </p>
 
           <div className={styles.btnsDiv}>
-            <ConhecaSolucoesBtn />
-            <FaleConsultorBtn />
+            <div className="mr-auto">
+              <ConhecaSolucoesBtn />
+            </div>
+            <div className="mr-auto">
+              <FaleConsultorBtn />
+            </div>
           </div>
         </div>
       </div>
@@ -74,7 +78,9 @@ const SliderPage2 = () => {
                   para que o crescimento aconteça de forma sustentável e segura.
                 </p>
                 <Separator className="bg-meu-azul-800 m-auto mb-2 mt-2 w-2/3 rounded-4xl" />
-                <ConhecaStaxBtn />
+                <div className="w-full flex justify-center">
+                  <ConhecaStaxBtn />
+                </div>
               </div>
             </div>
           </div>

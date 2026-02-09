@@ -35,10 +35,10 @@
 }
 
 .title {
-  @apply font-bold text-white lg:text-5xl text-3xl;
+  @apply font-bold text-white lg:text-4xl text-3xl;
 }
 .paragraph {
-  @apply lg:text-2xl text-base;
+  @apply lg:text-xl text-base;
 }
 .section {
   @apply flex h-full w-full lg:w-1/2 items-center justify-center;

@@ -1,10 +1,10 @@
 @reference "tailwindcss";
 
 .btn {
-  @apply cursor-pointer h-10 rounded-3xl p-2 px-3 md:px-8 flex items-center justify-center mr-auto gap-1 hover:px-16 transition-all;
+  @apply cursor-pointer h-10 rounded-3xl p-2 px-3 md:px-6 flex items-center justify-center gap-1 hover:px-12 transition-all;
 }
 .text {
-  @apply text-black font-bold md:text-xl text-xs;
+  @apply text-black font-bold md:text-base text-xs;
 }
 .icon {
   @apply h-6 w-6;

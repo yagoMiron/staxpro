@@ -29,8 +29,12 @@ const SliderPage1 = () => {
             escaláveis e lucrativos.
           </h3>
           <div className={styles.btnsDiv}>
-            <ConhecaStaxBtn />
-            <ExtruturarEmpresaBtn />
+            <div className="mr-auto">
+              <ConhecaStaxBtn />
+            </div>
+            <div className="mr-auto">
+              <ExtruturarEmpresaBtn />
+            </div>
           </div>
         </div>
       </div>
